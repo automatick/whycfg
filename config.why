@@ -1,0 +1,13 @@
+REQUIRED - class: server
+OPTIONAL - class: connections
+
+[server]
+> port : 8080
+> mount : "127.0.1.2"
+
+[connections]
+> limit : 10
+
+[timeout]
+> ms : 20ms
+
